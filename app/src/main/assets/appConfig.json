@@ -1,0 +1,226 @@
+{
+  "general": {
+    "userAgentRegexes": [],
+    "replaceStrings": [],
+    "nativeBridgeUrls": [],
+    "languages": [],
+    "userAgentAdd": "gonative",
+    "enableWindowOpen": true,
+    "forceScreenOrientation": null,
+    "initialUrl": "https://lvewebwallet.space",
+    "appName": "LVE-WALLET",
+    "publicKey": "mkzlnx",
+    "deviceRegKey": "ngrdwqd4r33wqn2nqhnggwyhhm"
+  },
+  "navigation": {
+    "iosSettings": {},
+    "tabNavigation": {
+      "tabSelectionConfig": [
+        {
+          "id": "1",
+          "regex": ""
+        }
+      ],
+      "tabMenus": [
+        {
+          "items": [
+            {
+              "subLinks": []
+            }
+          ],
+          "id": "1"
+        }
+      ]
+    },
+    "sidebarNavigation": {
+      "menuSelectionConfig": {
+        "testURL": null,
+        "redirectLocations": [
+          {
+            "regex": null,
+            "menuName": "default"
+          }
+        ]
+      },
+      "menus": [
+        {
+          "items": [
+            {
+              "subLinks": [],
+              "label": "Sample Home",
+              "url": "https://lvewebwallet.space/home"
+            },
+            {
+              "subLinks": [],
+              "label": "Sample About",
+              "url": "https://lvewebwallet.space/about"
+            }
+          ],
+          "name": "default",
+          "active": false
+        }
+      ]
+    },
+    "regexInternalExternal": {
+      "rules": [
+        {
+          "regex": "^(?!https?://).*",
+          "internal": false
+        },
+        {
+          "regex": "https?://([-\\w]+\\.)*facebook\\.com/login.php.*",
+          "internal": true
+        },
+        {
+          "regex": "https?://([-\\w]+\\.)*facebook\\.com/dialog.*",
+          "internal": true
+        },
+        {
+          "regex": "https?://([-\\w]+\\.)*facebook\\.com/v1\\.0/.*",
+          "internal": true
+        },
+        {
+          "regex": "https?://([-\\w]+\\.)*facebook\\.com/oauth.*",
+          "internal": true
+        },
+        {
+          "regex": "https?://([-\\w]+\\.)*facebook\\.com/v2\\.0/.*",
+          "internal": true
+        },
+        {
+          "regex": "https?://([-\\w]+\\.)*facebook\\.com/checkpoint.*",
+          "internal": true
+        },
+        {
+          "regex": "https?://([-\\w]+\\.)*facebook\\.com.*",
+          "internal": true
+        },
+        {
+          "regex": "https?://([-\\w]+\\.)*plus\\.google\\.com/share.*",
+          "internal": false
+        },
+        {
+          "regex": "https?://([-\\w]+\\.)*twitter\\.com/.*",
+          "internal": false
+        },
+        {
+          "regex": "https?://([-\\w]+\\.)*instagram\\.com/.*",
+          "internal": false
+        },
+        {
+          "regex": "https?://maps\\.google\\.com.*",
+          "internal": false
+        },
+        {
+          "regex": "https?://([-\\w]+\\.)*linkedin\\.com/.*",
+          "internal": false
+        },
+        {
+          "regex": "https?://([-\\w]+\\.)*google\\.com/maps/search/.*",
+          "internal": false
+        },
+        {
+          "regex": ".*",
+          "internal": true
+        }
+      ]
+    },
+    "androidPullToRefresh": false,
+    "iosPullToRefresh": true,
+    "navigationTitles": {
+      "titles": [
+        {}
+      ]
+    },
+    "ignorePageFinishedRegexes": [],
+    "androidShowRefreshButton": false,
+    "iosShowRefreshButton": false,
+    "deepLinkDomains": {
+      "domains": [],
+      "enableAndroidApplinks": false
+    },
+    "navigationLevels": {
+      "levels": [
+        {}
+      ]
+    },
+    "toolbarNavigation": null,
+    "redirects": []
+  },
+  "styling": {
+    "iosLaunchScreen": {
+      "backgroundColor": "#151BBF",
+      "backgroundImage": "https://s3.amazonaws.com/gonativeio/images_generated/1647308951665_6p0gdaqvyqx24_151BBF_1_2x2.png",
+      "centerImage": "https://gonativeio.s3.amazonaws.com/uploads/2q6u0x10xp08c_1647308987641.png"
+    },
+    "androidLaunchImages": {
+      "mdpi": "https://s3.amazonaws.com/gonativeio/images_generated/1647309528436_yfhje06cbqxfc_180x180.9.png",
+      "hdpi": "https://s3.amazonaws.com/gonativeio/images_generated/1647309528436_1a0136mc2qad2_270x270.9.png",
+      "xhdpi": "https://s3.amazonaws.com/gonativeio/images_generated/1647309528436_38zfn4mu1uh30_360x360.9.png",
+      "xxhdpi": "https://s3.amazonaws.com/gonativeio/images_generated/1647309528436_d6760g3dyc7h2_540x540.9.png",
+      "xxxhdpi": "https://s3.amazonaws.com/gonativeio/images_generated/1647309528436_ddva9fh5dcdjg_720x720.9.png"
+    },
+    "transitionInteractiveDelayMax": 0.2,
+    "menuAnimationDuration": 0.15,
+    "androidShowSplash": true,
+    "disableAnimations": false,
+    "hideWebviewAlpha": 0.5,
+    "icon": "https://gonativeio.s3.amazonaws.com/uploads/8x72yr5vyxtq0_1647309481522.png",
+    "iosHeaderImage": "https://gonativeio.s3.amazonaws.com/uploads/xz8wk3xfj5nmr_1647306911441.png",
+    "showActionBar": false,
+    "showNavigationBar": false,
+    "iosSidebarFont": "Default",
+    "androidHideTitleInActionBar": true,
+    "navigationTitleImage": false,
+    "iosTheme": "default",
+    "androidTheme": "light",
+    "androidSidebarBackgroundColor": "#FFFFFF",
+    "androidSidebarForegroundColor": "#312AE1",
+    "androidActionBarBackgroundColor": "#312AE1",
+    "androidActionBarForegroundColor": "#000000",
+    "androidPullToRefreshColor": "#777777",
+    "androidAccentColor": "#009688",
+    "androidSidebarSeparatorColor": "#212258",
+    "androidTabBarBackgroundColor": "#FFFFFF",
+    "androidTabBarTextColor": "#000000",
+    "androidTabBarIndicatorColor": "#000000",
+    "androidStatusBarBackgroundColor": "#030080",
+    "androidHeaderImage": "https://gonativeio.s3.amazonaws.com/uploads/9nzr8j2kw025c_1647306889155.png",
+    "iosSidebarTextColor": "#000000",
+    "iosTitleColor": "#000000"
+  },
+  "forms": {
+    "search": {}
+  },
+  "permissions": {
+    "usesGeolocation": true,
+    "androidDownloadToPublicStorage": false,
+    "enableWebRTC": false
+  },
+  "services": {
+    "facebook": {
+      "active": false
+    },
+    "oneSignal": {
+      "active": false,
+      "notificationExtension": false
+    },
+    "registration": {
+      "active": false,
+      "endpoints": [
+        {
+          "url": null,
+          "urlRegex": null,
+          "dataType": [
+            "oneSignal",
+            "xtremepush"
+          ]
+        }
+      ]
+    },
+    "parse": {
+      "active": false,
+      "pushEnabled": false
+    }
+  }
+}
